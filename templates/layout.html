@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>M.G.R. Construction - Construction Company </title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Construction Company Website Template" name="keywords">
+        <meta content="Construction Company Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="{{ url_for('static' , filename='img/favicon.ico') }}" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="{{ url_for('static' , filename='lib/flaticon/font/flaticon.css') }}" rel="stylesheet"> 
+        <link href="{{ url_for('static' , filename='lib/animate/animate.min.') }}" rel="stylesheet">
+        <link href="{{ url_for('static' , filename='lib/owlcarousel/assets/owl.carousel.min.') }}" rel="stylesheet">
+        <link href="{{ url_for('static' , filename='lib/lightbox/css/lightbox.min.') }}" rel="stylesheet">
+        <link href="{{ url_for('static' , filename='lib/slick/slick.') }}" rel="stylesheet">
+        <link href="{{ url_for('static' , filename='lib/slick/slick-theme.') }}" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="{{ url_for('static' , filename='css/style.css') }}" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- Top Bar Start -->
+            <div class="top-bar">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="logo">
+                                <a href="/">
+                                    <h1>M.G.R</h1>
+                                    <!-- <img src="img/logo.jpg" alt="Logo"> -->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-calendar"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Opening Hour</h3>
+                                            <p>Mon - Sat, 8:00 - 10:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-call"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Call Us</h3>
+                                            <p>+91 9893777624</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-send-mail"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Email Us</h3>
+                                            <p>ganeshram624@gmail.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Bar End -->
+
+            <!-- Nav Bar Start -->
+            <div class="nav-bar">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                        <a href="#" class="navbar-brand">MENU</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto">
+                                <a href="/" class="nav-item nav-link active">Home</a>
+                                <a href="/service" class="nav-item nav-link">Service</a>
+                                <a href="/about" class="nav-item nav-link">About</a>
+                                <a href="/contact" class="nav-item nav-link">Contact</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Nav Bar End -->
+
+{% block body %} {% endblock %}
+            <!-- Footer Start -->
+            <div class="footer wow fadeIn" data-wow-delay="0.3s">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-contact">
+                                <h2>Office Contact</h2>
+                                <p><i class="fa fa-map-marker-alt"></i>Azad Nagar Balco, Korba (C.G)</p>
+                                <p><i class="fa fa-phone-alt"></i>+919893777624</p>
+                                <p><i class="fa fa-envelope"></i>ganeshram624@gmail.com</p>
+                                <div class="footer-social">
+                                    <a href="https://twitter.com/sadhna624?s=20"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://facebook.com/ganeshram.ram.31586"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://instagram.com/ganeshram9893"><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-link">
+                                <h2>Services Areas</h2>
+                                <a href="">Building Construction</a>
+                                <a href="">House Renovation</a>
+                                <a href="">Architecture Design</a>
+                                <a href="">Interior Design</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-link">
+                                <h2>Useful Pages</h2>
+                                <a href="">About Us</a>
+                                <a href="">Contact Us</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="newsletter">
+                                <h2>Newsletter</h2>
+                                <p>
+                                    Subscribe to our newsletter
+                                </p>
+                                <div class="form">
+                                    <input class="form-control" placeholder="Email here">
+                                    <button class="btn">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container footer-menu">
+                    <div class="f-menu">
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>&copy; <a href="#">M.G.R. Construction</a>, All Rights Reserved.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Designed By <a href="https://www.instagram.com/___.v.a.s.u.___">Vasu</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="{{ url_for('static' , filename='lib/easing/easing.min.js') }}"></script>
+        <script src="{{ url_for('static' , filename='lib/wow/wow.min.js') }}"></script>
+        <script src="{{ url_for('static' , filename='lib/owlcarousel/owl.carousel.min.js') }}"></script>
+        <script src="{{ url_for('static' , filename='lib/isotope/isotope.pkgd.min.js') }}"></script>
+        <script src="{{ url_for('static' , filename='lib/lightbox/js/lightbox.min.js') }}"></script>
+        <script src="{{ url_for('static' , filename='lib/waypoints/waypoints.min.js') }}"></script>
+        <script src="{{ url_for('static' , filename='lib/counterup/counterup.min.js') }}"></script>
+        <script src="{{ url_for('static' , filename='lib/slick/slick.min.js') }}"></script>
+
+        <!-- Template Javascript -->
+        <script src="{{ url_for('static' , filename='js/main.js') }}"></script>
+    </body>
+</html>

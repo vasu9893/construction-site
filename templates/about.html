@@ -1,0 +1,104 @@
+{% extends "layout.html" %}
+{% block body %}
+
+            <!-- Page Header Start -->
+            <div class="page-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>About Us</h2>
+                        </div>
+                        <div class="col-12">
+                            <a href="">Home</a>
+                            <a href="">About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Page Header End -->
+
+
+            <!-- About Start -->
+            <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="about-img">
+                                <img src="{{ url_for('static' , filename='img/about.jpg') }}" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-6">
+                            <div class="section-header text-left">
+                                <p>Welcome to Builderz</p>
+                                <h2>25 Years Experience</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    We are working since 20 Years and we had done many works such as building ,repairing , contruction etc. Our Employees are very well satisfied by our facility . That's why we are touching the edges of cloud.
+                                </p>
+                                <p>
+                                    Team work has been defined as a group of people sharing a common goal which can only be achieved by appropriate combinations of individual activities and also a species of cooperation. I believe team work to be a vital part of clinical practice as it can improve the quality of care as well as shortened treatment times which is vital in the health care sector.
+                                </p>
+                                <a class="btn" href="">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+            
+            
+            <!-- Fact Start -->
+            <div class="fact">
+                <div class="container-fluid">
+                    <div class="row counters">
+                        <div class="col-md-6 fact-left wow slideInLeft">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="fact-icon">
+                                        <i class="flaticon-worker"></i>
+                                    </div>
+                                    <div class="fact-text">
+                                        <h2 data-toggle="counter-up">109</h2>
+                                        <p>Expert Workers</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="fact-icon">
+                                        <i class="flaticon-building"></i>
+                                    </div>
+                                    <div class="fact-text">
+                                        <h2 data-toggle="counter-up">485</h2>
+                                        <p>Happy Clients</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 fact-right wow slideInRight">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="fact-icon">
+                                        <i class="flaticon-address"></i>
+                                    </div>
+                                    <div class="fact-text">
+                                        <h2 data-toggle="counter-up">789</h2>
+                                        <p>Completed Projects</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="fact-icon">
+                                        <i class="flaticon-crane"></i>
+                                    </div>
+                                    <div class="fact-text">
+                                        <h2 data-toggle="counter-up">890</h2>
+                                        <p>Running Projects</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fact End -->
+            
+{% endblock %}
